@@ -128,7 +128,7 @@ export default class Demo {
 			this.animate();
 		});
 
-		this.cube.rotation.x += 0.01;
+		this.cube.rotation.x += 0.001;
 		this.cube.rotation.y += 0.01;
 
 		if (this.stats) this.stats.update();
